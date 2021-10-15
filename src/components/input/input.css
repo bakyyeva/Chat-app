@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+.input{
+    background-color: #F3F3F3;
+    font-size:  14px;
+    padding: 16px;
+    border: none;
+    margin-bottom: 16px;
+    min-width: 200px;
+    width: 250px;
+    box-sizing: border-box;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder {
+    color: #C6C6C6;
+}

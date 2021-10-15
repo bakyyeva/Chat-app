@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+:root{
+    --primary-color: #68B7FF;
+    --secondary-color: #F2F2F2;
+  }
+.user-details-container{
+    width:  100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background: #F3F3F3;
+}
+.details-left-side {
+    flex: 1;
+}
+.details-right-side {
+    flex: 4;
+    background: white;
+}
+.details-left-side,
+.details-right-side {
+  display: flex;
+  flex-direction: column;
+}
+.detail-container button{
+    border: none;
+    background: white;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 24px;
+    height: 24px;
+}
+.round-detail{
+    width: 160px;
+    height: 160px;
+    border-radius: 200px;
+    background: #E6E6E6;
+    margin: 0 auto;
+}
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+}
+.user-detail{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 24px 0px;
+}
+.user-detail p{
+    text-align: center;
+    color: #C8C8C8;
+    margin: 24px 0px;
+   
+}
+.block-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1.75rem;
+}
+.message-block,
+.call-block,
+.video-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 187px;
+    height: 100px;
+    background: #E6E6E6;
+    margin-top: 5px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+.message-block i{
+    color: var(--primary-color);
+    font-size: 32px;
+}
+.message-block p{
+    text-align: center;
+    color: var(--primary-color);
+    margin: 14px 0px;
+}
+.call-block i{
+    color: var(--primary-color);
+    font-size: 32px;
+}
+.call-block p{
+    text-align: center;
+    color: var(--primary-color);
+    margin: 14px 0px;
+}
+.video-block i{
+    color: var(--primary-color);
+    font-size: 32px;
+}
+.video-block p{
+    text-align: center;
+    color: var(--primary-color);
+    margin: 14px 0px;
+}
