@@ -1,7 +1,7 @@
 # Chat App
 
 ## Demo Link
-https://confident-tereshkova-dd2721.netlify.app
+[https://confident-tereshkova-dd2721.netlify.app](https://confident-tereshkova-dd2721.netlify.app/#/login)
 
 # Getting Started with Create React App
 
